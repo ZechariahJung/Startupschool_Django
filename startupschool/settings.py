@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')   #secret key는 배포하기 전에 �
 DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ["*"] #모든 접속에서 들어오는 HOST를 허용하겠다.
-CSRF_TRUSTED_ORIGINS  = ["https://*cloudtype.app"]
+CSRF_TRUSTED_ORIGINS  = ["https://*.cloudtype.app"]
 
 
 # Application definition
